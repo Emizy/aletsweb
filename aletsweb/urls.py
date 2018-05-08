@@ -20,9 +20,9 @@ from alets import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name="index"),
-    url(r'^coming', views.partner, name="partner"),
-    url(r'^coming', views.service, name="service"),
-    url(r'^coming', views.contacts, name="contacts"),
+    url(r'^partner', views.partner, name="partner"),
+    url(r'^service', views.service, name="service"),
+    url(r'^contacts', views.contacts, name="contacts"),
     url(r'^crane', views.crane, name="crane"),
 
 ]
